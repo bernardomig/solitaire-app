@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+
 import Game from "./components/Game";
 
 import "@fontsource/roboto/400.css";
@@ -16,3 +18,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+serviceWorkerRegistration.register();
