@@ -1,6 +1,6 @@
 {
-  "short_name": "Solitaire",
-  "name": "Solitaire in React",
+  "short_name": "Solitr",
+  "name": "Solitaire Game build with React",
   "icons": [
     {
       "src": "favicon.ico",
